@@ -1,0 +1,26 @@
+###[ Current settings for pagekite.py v1.5.2.201011. ]#########
+#
+## NOTE: This file may be rewritten/reordered by pagekite.py.
+#
+
+##[ Default kite and account details ]##
+kitename   = plosoros.pagekite.me
+kitesecret = 7c2d84k4c6azae9kdffzxdb93ak844c9
+
+##[ Front-end settings: use pagekite.net defaults ]##
+defaults
+
+##[ Back-ends and local services ]##
+service_on  = http:@kitename                   : localhost:6080    : @kitesecret
+
+
+
+
+
+##[ Miscellaneous settings ]##
+logfile = /content/lop.log
+savefile = /root/.pagekite.rc
+max_read_bytes = 16256x3.100
+
+###[ End of pagekite.py configuration ]#########
+END

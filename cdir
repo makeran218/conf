@@ -1,0 +1,9 @@
+cd '/content/drive2/JV9/';export n=8 
+find . -type d                      \
+       -regextype egrep             \
+     ! -regex '.*\.[^/.]{'"$n"',}'  \
+       -regex '.*[^/]{'$((n+1))',}' \
+       -execdir bash -c '
+    for d in "${@#./}"; do
+        mv -- "$d" "${d:0:n}"
+    done' bash {} +

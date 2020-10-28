@@ -1,0 +1,11 @@
+cd '/content/drive2/JV9/';export n=12 
+find . -type f                      \
+     ! -name '.*'                   \
+       -regextype egrep             \
+     ! -regex '.*\.[^/.]{'"$n"',}'  \
+       -regex '.*[^/]{'$((n+1))',}' \
+       -execdir bash -c '
+    for f in "${@#./}"; do
+        ext=${f#"${f%.*}"}
+        mv -- "$f" "${f:0:n-${#ext}}${ext}"
+    done' bash {} +

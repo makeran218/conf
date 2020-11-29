@@ -194,7 +194,7 @@
         "dht-enabled": true,
         "download-dir": "/content/drive/",
         "download-queue-enabled": true,
-        "download-queue-size": 5,
+        "download-queue-size": 10,
         "encryption": "preferred",
         "idle-seeding-limit": 0,
         "idle-seeding-limit-enabled": true,

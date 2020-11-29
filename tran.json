@@ -1,0 +1,228 @@
+{
+    "system": {
+        "autoReload": true,
+        "reloadStep": 3000,
+        "pageSize": 200,
+        "pagination": true,
+        "pageList": [10, 20, 30, 40, 50, 100, 150, 200, 250, 300, 5000],
+        "defaultSelectNode": "downloading",
+        "autoExpandAttribute": false,
+        "defaultLang": "",
+        "foldersShow": false,
+        "theme": "default",
+        "showBTServers": false,
+        "ipInfoToken": "",
+        "ui": {
+            "status": {
+                "tree": {
+                    "folders-Y29udGVudA00": "closed"
+                },
+                "layout": {
+                    "main": {},
+                    "body": {},
+                    "left": {
+                        "south": "closed"
+                    }
+                },
+                "panel": {},
+                "size": {
+                    "nav": {
+                        "width": 283
+                    },
+                    "attribute": {}
+                }
+            }
+        },
+        "hideSubfolders": false,
+        "simpleCheckMode": false,
+        "nav": {
+            "servers": true,
+            "folders": true,
+            "statistics": true,
+            "labels": false
+        },
+        "labels": [],
+        "labelMaps": {},
+        "ignoreVersion": []
+    },
+    "user": {
+        "torrentList": {
+            "fields": [{
+                "field": "ck",
+                "checkbox": "true",
+                "allowCustom": "false",
+                "title": "ck"
+            }, {
+                "field": "name",
+                "width": "300",
+                "sortable": "true",
+                "title": "Name"
+            }, {
+                "field": "totalSize",
+                "width": "80",
+                "align": "right",
+                "sortable": "true",
+                "title": "Total size"
+            }, {
+                "field": "percentDone",
+                "width": "70",
+                "align": "center",
+                "sortable": "true",
+                "title": "Percent done"
+            }, {
+                "field": "remainingTime",
+                "width": "100",
+                "align": "right",
+                "sortable": true,
+                "title": "Remaining time"
+            }, {
+                "field": "uploadRatio",
+                "width": "60",
+                "align": "right",
+                "sortable": "true",
+                "title": "Ratio"
+            }, {
+                "field": "status",
+                "width": "60",
+                "align": "center",
+                "sortable": "true",
+                "title": "Status"
+            }, {
+                "field": "statusCode",
+                "hidden": "true",
+                "allowCustom": "false",
+                "title": "statusCode",
+                "width": 72
+            }, {
+                "field": "seederCount",
+                "width": "60",
+                "align": "left",
+                "title": "Seeder"
+            }, {
+                "field": "leecherCount",
+                "width": "60",
+                "align": "left",
+                "title": "Leecher"
+            }, {
+                "field": "rateDownload",
+                "width": "80",
+                "align": "right",
+                "sortable": "true",
+                "title": "Download rate"
+            }, {
+                "field": "rateUpload",
+                "width": "80",
+                "align": "right",
+                "sortable": "true",
+                "title": "Upload rate"
+            }, {
+                "field": "completeSize",
+                "width": "80",
+                "align": "right",
+                "sortable": "true",
+                "title": "Complete size"
+            }, {
+                "field": "uploadedEver",
+                "width": "80",
+                "align": "right",
+                "sortable": "true",
+                "title": "Uploaded ever"
+            }, {
+                "field": "addedDate",
+                "width": "130",
+                "align": "center",
+                "sortable": "true",
+                "title": "Date added"
+            }, {
+                "field": "id",
+                "width": "30",
+                "align": "center",
+                "sortable": "true",
+                "title": "#"
+            }, {
+                "field": "queuePosition",
+                "width": "30",
+                "align": "center",
+                "sortable": true,
+                "title": "Queue"
+            }, {
+                "field": "trackers",
+                "width": "100",
+                "align": "left",
+                "sortable": true,
+                "title": "Trackers"
+            }, {
+                "field": "downloadDir",
+                "width": 200,
+                "align": "left",
+                "sortable": true,
+                "title": "Download Dir"
+            }, {
+                "field": "activityDate",
+                "width": 130,
+                "align": "center",
+                "sortable": true,
+                "title": "Activity Date"
+            }, {
+                "field": "labels",
+                "width": 130,
+                "align": "left",
+                "title": "User Labels"
+            }, {
+                "field": "doneDate",
+                "width": 130,
+                "align": "center",
+                "sortable": "true",
+                "title": "Completed Date"
+            }],
+            "sortName": null,
+            "sortOrder": "asc"
+        }
+    },
+    "dictionary-folders": [""],
+    "server": {
+        "alt-speed-down": 50,
+        "alt-speed-enabled": false,
+        "alt-speed-time-begin": 540,
+        "alt-speed-time-day": 127,
+        "alt-speed-time-enabled": false,
+        "alt-speed-time-end": 1020,
+        "alt-speed-up": 50,
+        "blocklist-enabled": false,
+        "blocklist-url": "http://www.example.com/blocklist",
+        "cache-size-mb": 4,
+        "dht-enabled": true,
+        "download-dir": "/content/drive/",
+        "download-queue-enabled": true,
+        "download-queue-size": 5,
+        "encryption": "preferred",
+        "idle-seeding-limit": 0,
+        "idle-seeding-limit-enabled": true,
+        "incomplete-dir": "/content/incomplete/",
+        "incomplete-dir-enabled": true,
+        "lpd-enabled": false,
+        "peer-limit-global": 9999,
+        "peer-limit-per-torrent": 9999,
+        "peer-port": 51413,
+        "peer-port-random-on-start": false,
+        "pex-enabled": true,
+        "port-forwarding-enabled": false,
+        "queue-stalled-enabled": true,
+        "queue-stalled-minutes": 30,
+        "rename-partial-files": true,
+        "script-torrent-done-enabled": false,
+        "script-torrent-done-filename": "",
+        "seed-queue-enabled": false,
+        "seed-queue-size": 10,
+        "seedRatioLimit": 0,
+        "seedRatioLimited": true,
+        "speed-limit-down": 100,
+        "speed-limit-down-enabled": false,
+        "speed-limit-up": 100,
+        "speed-limit-up-enabled": false,
+        "start-added-torrents": true,
+        "trash-original-torrent-files": false,
+        "utp-enabled": true
+    },
+    "configVersion": 1
+}
